@@ -1,0 +1,45 @@
+/* //@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Pacifico&display=swap'); */
+
+html,body {
+    margin:0;
+    padding:0;
+    background-color: rgb(124, 116, 116);
+}
+
+label {
+    display: block;
+}
+.formContainer {
+    position: relative;
+    margin: 2% auto;
+    min-height: 60%;
+    width: 20%;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.6);
+    background: rgb(221, 216, 216);
+    padding: 0em 0em .5em .5em;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+form{
+    padding: .5em 5em;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+
+.imgpizz {  
+    width: auto;  
+    text-align: center;  
+    padding: 15px; 
+    margin: 0; 
+}  
+img {  
+    max-width: 200px;  
+    height: auto;  
+ }  

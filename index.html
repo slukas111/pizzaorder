@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order Service</title>
+    <link href="style.css" rel="stylesheet">
+    <!-- 
+        Creating an html file that contains a form
+        Use action Method to send input data to backend
+        data use sizes, topping items, and prices
+        Use conditions to calculate costs and return to user.
+        Student: Sasha Lukas
+     -->
+</head>
+<body>
+
+    <h1>Pizza Order Form</h1>
+    <div class="imgpizz">
+        <img src="assets/pizza.png" alt="making pizza">
+    </div>
+    <div class="formContainer">
+        <form method="post" action="order.php">
+            <p>Please choose a size pie</p>
+    
+            <label for="size">Small  $6.00</label>
+            <input type="radio" name="size" value="Small" checked="checked">
+            <label for="size">Medium  $10.00</label>
+            <input type="radio" name="size" value="Medium">
+            <label for="size">Large  $15.00</label>
+            <input type="radio" name="size" value="Large">
+            </p>
+            
+            <p>Choose topping(s)</p>
+            <label for="topp">Pepperoni $1.00</label>
+            <input type="checkbox" name="peppr" checked="checked"> 
+            <label for="topp">Mushrooms $1.00</label>
+            <input type="checkbox" name="mushr"> 
+            <label for="topp">Roasted Tomatoes $1.00</label>
+            <input type="checkbox" name="rstom">
+            <label for="topp">Pineapple $1.00</label>
+            <input type="checkbox" name="pinea" >
+            
+            <p>
+            <input type="submit" value="Submit Order">
+            </p>
+        </form>
+    </div>
+</body>
+</html>
